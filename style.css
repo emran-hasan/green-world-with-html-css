@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#HomePage {
+  background: linear-gradient(rgb(24, 30, 25, 72%), rgb(24, 30, 25, 72%)),
+    url(img/hero-background.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contentWrapper {
+  overflow: hidden;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.logo {
+  width: 380px;
+  font-size: 40px;
+  color: white;
+  font-family: "Lobster", cursive;
+  float: left;
+  padding: 15px 0px;
+}
+.mainMenu {
+  float: right;
+  width: 683px;
+  padding-top: 10px;
+}
+
+.mainMenu li {
+  float: left;
+  padding-right: 19px;
+  list-style: none;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+.mainMenu li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: block;
+}
+.mainMenu li a:hover {
+  color: #1ecd56;
+}
+#active {
+  color: #1ecd56;
+}
+button#menuButton {
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid #1ecd56;
+  font-size: 16px;
+  color: #1ecd56;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-top: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button#menuButton:hover {
+  background-color: #1ecd56;
+  color: #fff;
+}
+/* -----------------header Dec------------------ */
+.decWrapper {
+  overflow: hidden;
+}
+.title {
+  width: 560px;
+  float: left;
+  font-size: 55px;
+  font-family: "Poppins", sans-seri;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 162px;
+}
+
+.titleDec {
+  width: 560px;
+  float: right;
+}
+.content {
+  margin-top: 160px;
+  margin-bottom: 140px;
+  overflow: hidden;
+}
+.titleDec p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+button#decButton {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background: #1ecd56;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 32px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button#decButton:hover {
+  background: transparent;
+  border: 1px solid #1ecd56;
+  color: #fff;
+}
+/* -------------Producee---------------- */
+
+.produce {
+  background: #f8f7f2;
+}
+.produceWrapper {
+  overflow: hidden;
+  padding: 80px 0px;
+}
+
+.pTitle {
+  font-size: 38px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #181e19;
+  padding: 14px 0px;
+  font-weight: 600;
+}
+.Paragraph {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.Paragraph p {
+  width: 66%;
+  text-align: center;
+  line-height: 27px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #777;
+}
+.imgContent {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+#one {
+  width: 220px;
+  clip-path: circle();
+}
+#two {
+  width: 220px;
+  clip-path: circle();
+}
+#three {
+  width: 220px;
+  clip-path: circle();
+}
+/* ---------------------Story---------- */
+
+.history {
+  margin-top: 100px;
+}
+.historyWrapper {
+  padding-bottom: 520px;
+}
+.historyImgWrap {
+  overflow: hidden;
+}
+.historyDes {
+  width: 570px;
+  float: left;
+}
+
+.historyImg {
+  width: 570;
+}
+.img-iteam {
+  width: 570px;
+  float: right;
+}
+.subTitle h6 {
+  font-size: 14px;
+  color: #1ecd56;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.mainHisTitle h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.historyDes p {
+  margin: 10px 0px;
+  line-height: 27px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #777;
+}
+.storyBtn {
+  background: transparent;
+  border: 1px solid #1ecd56;
+  font-size: 16px;
+  color: #1ecd56;
+  border-radius: 8px;
+  padding: 15px 30px;
+  margin: 19px 0px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button.storyBtn {
+  margin-top: 36px;
+}
+.storyBtn:hover {
+  background-color: #1ecd56;
+  color: #fff;
+}
+/* ------------------how is our product--------- */
+
+.howItems {
+  overflow: hidden;
+}
+.Iteams {
+  width: 390px;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+.icon-one {
+  font-size: 35px;
+  border-radius: 52%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 13px;
+  color: #1ecd56;
+}
+.iteamTitle h4 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.iteamTitle p {
+  font-size: 19px;
+  color: #777;
+}
+/* -------------------------review------------ */
+.review {
+  margin: 90px 0px;
+  background-color: #f8f7f2;
+  padding: 90px 0px;
+}
+.reviewWrapper {
+  overflow: hidden;
+}
+
+.reviewColum-1 {
+  width: 580px;
+  float: left;
+}
+.reviewColum-2 {
+  width: 580px;
+  float: right;
+}
+.rText h6 {
+  font-size: 14px;
+  color: #1ecd56;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.reviewTitle {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.reviewBtn {
+  background: transparent;
+  border: 1px solid #1ecd56;
+  font-size: 16px;
+  color: #1ecd56;
+  border-radius: 8px;
+  padding: 15px 40px;
+  margin: 19px 0px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reviewBtn:hover {
+  background-color: #1ecd56;
+  color: #fff;
+}
+
+.testimonial-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonial-box {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+.name-user span {
+  color: #979797;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p {
+  font-size: 0.9rem;
+  color: #757575;
+  font-family: "Poppins", sans-serif;
+}
+.testimonial-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+/* -----------------SUBSCRIBE---------------- */
+.subscribe {
+  background: linear-gradient(rgba(24, 30, 25, 72%), rgba(24, 30, 25, 72%)),
+    url(img/subscribe.jpg);
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subWrapper {
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  padding: 104px 40px;
+}
+.subWrapper span {
+  width: 32px;
+  margin: 0 auto;
+  color: #1ecd56;
+}
+.subWrapper h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.subWrapper p {
+  color: #fff;
+  padding: 10px 171px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.inputBox {
+  position: relative;
+  padding: 25px;
+  margin: 10px 0px;
+}
+.inputBox input:first-child {
+  width: 30%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  font-family: auto;
+  letter-spacing: 1px;
+}
+.inputBox input:last-child {
+  padding: 13px;
+  border: none;
+  background: transparent;
+  color: #1ecd56;
+  font-weight: 500;
+  font-size: 17px;
+  width: 120px;
+  border-radius: 50px;
+  border: 2px solid #1ecd56;
+  top: 0;
+  right: 0px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.inputBox input:last-child:hover {
+  background: #1ecd56;
+  color: #fff;
+}
+.subSingleBox p {
+  color: white;
+  font-size: 16px;
+}
+/* -------------ContactDetails------------ */
+.contactDetails {
+  float: right;
+  margin-right: 34px;
+}
+.contactDetails h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+#fcontacts {
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+  margin: 10px 0px;
+  line-height: 27px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+#fcontacts i {
+  color: #1ecd56;
+  margin-right: 10px;
+}
+/* -----------------Contact ------------------ */
+.contact {
+  margin-bottom: 80px;
+}
+.contactWrapper {
+  overflow: hidden;
+}
+.contactTitle {
+  width: 580px;
+  float: left;
+  padding-right: 10px;
+  margin-bottom: 66px;
+}
+.contactTitle h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.contactParagraph {
+  padding-right: 21%;
+}
+.contactParagraph p {
+  margin: 10px 0px;
+  line-height: 27px;
+  font-size: 18px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.contactIcons a {
+  display: block;
+  width: 30px;
+  background: #1ecd56;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+.contactIcons a:hover {
+  background: #fff;
+  color: #1ecd56;
+}
+
+/* ----------------------Copyright-------- */
+#footer {
+  background: #1a1a1a;
+  padding-top: 160px;
+}
+.copyrightContainer {
+  overflow: hidden;
+  color: #ababab;
+  border-top: 1px solid #333;
+}
+.copyrightContainer .container {
+  overflow: hidden;
+}
+.copyrightText {
+  width: 520px;
+  float: left;
+  padding: 35px 15px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.copyrightMenu {
+  width: 570px;
+  float: right;
+}
+.copyrightMenu ul {
+  list-style: none;
+  float: right;
+  overflow: hidden;
+}
+.copyrightMenu ul li {
+  float: left;
+}
+.copyrightMenu ul li a {
+  color: #ababab;
+  padding: 35px 15px;
+  text-decoration: none;
+  background-color: transparent;
+  display: block;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
